@@ -1,0 +1,6 @@
+<div class="row">
+  <div class="card" [ngClass]="{ 'face-down': !faceUp }">
+  <img [src]="cardData?.image" alt="{{cardData?.name}}" />
+    <p>{{cardData?.name}}</p>
+  </div>
+</div>
